@@ -23,8 +23,8 @@ from PIL import Image
 
 
 
-subscription_key = "bb1921ab006f438f857827d112cb07ce"
-endpoint = "https://brandmentions.cognitiveservices.azure.com/"
+subscription_key = ""
+endpoint = ""
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
